@@ -1,1 +1,1 @@
-# amzon_clone
+# amazon_clone
