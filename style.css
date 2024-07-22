@@ -10,6 +10,7 @@
     width: 100%vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     color: white;
 }
 
@@ -53,7 +54,7 @@
     padding-left: 5px;
 }
 
-i {
+#location-button {
     font-size: 20px;
 }
 
@@ -72,15 +73,126 @@ i {
     background-color: #d4d4d4;
     border: none;
 }
+
 #search {
     padding: 11px 0px 11px 5px;
     width: 500px;
     border: none;
 }
+
 #searchbutton {
-    padding: 9px 12px 8px 12px;
+    padding: 11px 12px 11px 12px;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     background-color: #f3a847;
     border: none;
+}
+
+#language {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-self: center;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#flag {
+    height: 17px;
+    width: 23px;
+}
+
+#lang {
+    background-color: #000000;
+    border-style: none;
+    color: white;
+    border: none;
+
+}
+
+#language:hover {
+    border: 2px solid white;
+}
+
+#signin {
+    height: 40px;
+    width: 135px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+#signinhello {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#Account {
+    background-color: #000000;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#signin:hover {
+    border: 2px solid white;
+}
+
+#order {
+    align-self: center;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 5%;
+}
+
+#return {
+    justify-content: flex-start;
+}
+#andorders {
+    font-size: 14px;
+}
+
+#order:hover {
+    border: 2px solid white;
+}
+
+#cart {
+    color: white;
+    align-self: center;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    border-radius: 5%;
+}
+
+#cartsymbol {
+    color: white;
+    font-size: 20px;
+}
+
+#no_of_items {
+    color: #f3a847;
+    font-size: 20px;
+}
+
+#cart:hover {
+    border: 2px solid white;
 }
