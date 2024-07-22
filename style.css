@@ -61,24 +61,26 @@ i {
     align-self: center;
     display: flex;
     flex-direction: row;
-    /*border: 2px solid white;
-     border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%; */
+    border: 2px solid transparent;
+    border-radius: 5%;
 }
 
 #categories {
     padding: 10px 0px 10px 5px;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: #d4d4d4;
+    border: none;
 }
 #search {
-    padding: 10px 0px 10px 5px;
+    padding: 11px 0px 11px 5px;
     width: 500px;
+    border: none;
 }
 #searchbutton {
-    padding: 8px 12px 8px 12px;
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
+    padding: 9px 12px 8px 12px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: #f3a847;
+    border: none;
 }
