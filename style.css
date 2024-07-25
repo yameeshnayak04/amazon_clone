@@ -196,3 +196,26 @@
 #cart:hover {
     border: 2px solid white;
 }
+
+#bar2 {
+    height: 40px;
+    width: 100%vw;
+    background-color: #232f3e;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bar2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#maincontent {
+    height: 540px;
+    background-image: url(https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg);
+    background-size: cover;
+}
+
+
