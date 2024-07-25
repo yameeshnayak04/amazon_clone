@@ -213,9 +213,47 @@
     margin-right: 10px;
 }
 #maincontent {
-    height: 540px;
-    background-image: url(https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg);
-    background-size: cover;
+    height: 1200px;
+    width: 100%vw;
+    display: flex;
 }
 
+#mainsite {
+    background-color: rgba(186, 224, 183, 0.7);
+    height: 765px;
+    width: 100%vw;
+    display: flex;
+    justify-content: center;
+}
 
+#welcome {
+    margin-top: -25px;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#amazonlink {
+    text-decoration: none;
+}
+
+#amazonlink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* #products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products {
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+} */
